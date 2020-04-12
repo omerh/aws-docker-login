@@ -7,5 +7,5 @@ So, I wrote this short code to have this command in hand.
 So, now I just run login like this:
 
 ```bash
-$(./aws-docker-login eu-west-2)
+$(aws-docker-login eu-west-2)
 ```
