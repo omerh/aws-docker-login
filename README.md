@@ -4,8 +4,12 @@ After the deprection of the command `get-login --no-include-email` in awscli ver
 
 So, I wrote this short code to have this command in hand.
 
-So, now I just run login like this:
+To use this:
 
 ```bash
+# Install
+go get -u github.com/omerh/aws-docker-login
+
+# Run
 $(aws-docker-login eu-west-2)
 ```
