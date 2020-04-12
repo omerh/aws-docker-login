@@ -15,6 +15,7 @@ import (
 func main() {
 	if len(os.Args) <= 1 {
 		fmt.Println("Missing region argument")
+		fmt.Println("./aws-docker-login <region>")
 		os.Exit(1)
 	}
 	region := os.Args[1]
